@@ -1,9 +1,12 @@
-    <footer id="main_footer">
+<link rel="stylesheet" href="../style.css">
+
+<footer id="main_footer">
+    <div id="cssmenu">
             <ul>
-                <li><a>2015 ANA KWON</a></li>
-                <li><a>ALL RIGHTS RESERVED</a></li>
-                <li><a>GITHUB</a></li>
-                <li><a>LINKEDIN</a></li>
+                <li class="active"><a><span>FACEBOOK</span></a></li>
+                <li><a><span>TWITTER</span></a></li>
+                <li><a href="https://www.github/anakwon"><span>GITHUB</span></a></li>
+                <li class="last"><a href="https://www.linkedin/anakwon"><span>LINKEDIN</span></a></li>
             </ul>
-        </nav>
-    </header>
+       </div>
+    </footer>

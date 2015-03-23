@@ -1,0 +1,62 @@
+#display_area{
+    width: 800px;
+    height: 600px;
+    background-color: lavender;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#display_area > img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#display_controls{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+#display_controls >div{
+    width:20%;
+    display: inline-block;
+    position: absolute;
+}
+#prev_image_control{
+    left: 0px;
+    text-align: left;
+    color: black;
+}
+#next_image_control{
+    right: 0px;
+    text-align: right;
+    color: black;
+}
+.indicator_dot
+{
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    display: inline-block;
+    margin: 5px 10px;
+    border-radius: 50%;
+}
+.indicator_dot_active
+{
+    background-color: blue;
+}
+#indicator_container
+{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+

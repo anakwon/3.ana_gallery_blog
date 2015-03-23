@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <section id="blog_content">
     <?php 
         include( 'header.php'); 
         if(isset ($_GET[ 'page']))
@@ -24,7 +25,7 @@
 
     <main id="main_content">
         <div class="content_display"></div>
-        <section id="blog_content">
+        
             <div class="blog_box">
                 this is where the contents of each page comes
                 <?php 
@@ -34,10 +35,7 @@
                         'Image' => ['pageUrl'=>'image.php'], 
                         'Contact' => ['pageUrl'=>'contact.php'], ]; 
 
-                print_r($_GET); 
-                if(!isset($_GET['page'])) { 
-                    $_GET['page'] = 'about.php'; 
-                } 
+               
                 
                 ?>
 

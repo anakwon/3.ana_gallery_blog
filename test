@@ -1,0 +1,10 @@
+ <form>Learning Fuze Todo List
+                        <input type="text" name="title" placeholder="Task Title">
+                        <br> 
+                        <input type="text" name="date" placeholder="Task Due">
+                        <br>
+                        <textarea name="details" placeholder="Task"></textarea>
+                        <br>
+
+                        <button type="button" id="save_task" class="glyphicon glyphicon-plus"></button>
+                    </form>

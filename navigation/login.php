@@ -14,7 +14,7 @@
         $_SESSION['user_info'] = $user_info;
             echo "You are now logged in!";
         //if user/pass is validated, needs to go back to the index.php
-        header('location : /navigation/blog.php');
+        header('location:../navigation/post_form.php');
     } else {
         echo "Your user/password is incorrect";
     }
